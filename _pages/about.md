@@ -7,14 +7,21 @@ redirect_from:
   - /about.html
 ---
 
-📌 Hailing from the land of Padre Cícero, Juazeiro do Norte.
+Laszlon Costa is an Assistant Professor at the Federal University of Cariri (UFCA), where he teaches and conducts research. His academic foundation was built at the Federal University of Ceará (UFC), where he earned his Bachelor's in Computer Engineering, Master's in Computer and Electrical Engineering, and Doctoral degrees in Teleinformatics Engineering.
 
-🧑‍🎓 I'm a professional nerd who decided one engineering degree wasn't enough, so I went ahead and collected all three: a B.S., an M.S., and the final boss, a Ph.D. from the Federal University of Ceará.
+His doctoral research was conducted at the Wireless Telecommunications Research Group (GTEL) and involved an industrial collaboration with Ericsson. This experience culminated in a period as a visiting researcher in TU Darmstadt (Germany), where he advanced his studies.
 
-🔍 My passion for science and telecommunications led me on a side quest as a researcher at GTEL, where I teamed up with Ericsson. The loot from that adventure was a special guest-star episode in Germany as a Ph.D. candidate.
+Following the completion of his Ph.D., Dr. Costa transitioned to the technology sector, joining the Atlantico Institute. He initially served as a Senior Software Developer from 2022 to 2024, contributing his C++ expertise to a project for Hewlett-Packard (HP). He was subsequently promoted to IT Project Manager within the same organization, where he led teams and managed the software project lifecycle.
 
-🧑‍💼 After my academic world tour, I settled in as a Senior Software Developer at Atlantico Institute, slinging C++ code for an HP project from 2022 to 2024. In 2024, I leveled up to IT Project Manager at Atlantico, where I now manage the quests instead of just coding them.
+In 2025, he returned to academia as a professor at UFCA. As an educator, his mission is to translate complex engineering topics into accessible and engaging knowledge, aiming to inspire and train the next generation of professionals and researchers.
 
-🧑‍🏫 And because every good hero needs to train an apprentice, I also dedicate part of my time to the noble art of teaching. As a professor at Federal Univerity of Cariri (UFCA), my mission is to turn complex topics like into exciting quests for university students. It's my way of passing the torch of knowledge and inspiring the next 'final boss' of engineering.
+Research Interests:
+* Radio Resource Allocaiton
 
-🤓 When I'm not deep into projects, you can find me consuming an unhealthy amount of anime, movies, and games, or pondering the arcane arts of MIMO transceivers and convex optimization—because apparently, my brain never wants to rest.
+* MIMO (Multiple-Input Multiple-Output) Communication Systems
+
+* Convex Optimization for Telecommunications
+
+* Signal Processing
+
+* Wireless Communications

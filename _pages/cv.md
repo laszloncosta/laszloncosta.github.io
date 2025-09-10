@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,9 +11,11 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Doctor in Teleinformatics Engineering, Federal University of Ceará (UFC), 2020
+  - collaborative period in Technische Universität Darmstadt (Germany)
+* M.Sc. in Computer and Electrical Engineering, Federal University of Ceará, Brazil (UFC), 2016
+  - Thesis: [Alocação de Recursos de Rádio em Redes Multicelulares e Multisserviços com Restrições de QoS](https://repositorio.ufc.br/bitstream/riufc/20475/3/2016_dis_lrcosta.pdf)
+* B.S. in Computer Engineering, Federal University of Ceará, Brazil (UFC), 2014
 
 Work experience
 ======
