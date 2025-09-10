@@ -1,0 +1,13 @@
+---
+title: "Radio resource allocation in multi-cell and multi-service mobile network based on QoS requirements."
+collection: publications
+category: manuscripts
+permalink: /publication/2019-02-01-computer-communication-QOS-RRA
+excerpt: #'This paper is about the number 3. The number 4 is left for future work.'
+date: 2019-02-01
+venue: 'Computer Communications'
+slidesurl: #'http://academicpages.github.io/files/slides3.pdf'
+paperurl: 'https://doi.org/10.1016/j.comcom.2018.12.007'
+citation: #'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+---
+<!-- Modern networks offer many service types that need to be considered for a fair distribution of the available radio resources. One of the main strategies of the next generation of mobile communications to deal with that traffic demand is to reduce the distances between transmitters and receivers, in order to maximize the number of available channels per area. However, this solution also comes with a drawback: the inter-cell interference becomes more significant. In this work, we present new channel-aware Physical Resource Block (PRB) assignment problems for planned and unplanned small-cell networks. The problems are modeled as Integer Linear Programming (ILP) problems in order to handle the inter-cell interference issue, considering minimum data rate requirements per User Equipment (UE). We consider a Cloud-Radio Access Network (C-RAN), in which the PRB assignment within the network can be globally managed. Specifically for planned networks, the proposed formulation guarantees a minimum data rate in different coverage regions of each cell based on UEs’ traffic services. The proposed problems differ from other C-RAN PRB assignment approaches from the literature in the sense that our proposal guarantees solutions with minimum satisfaction for each mobile service provided by the network. Since the optimal solutions of the proposed problems have exponential complexity, this work also proposes a low-complexity heuristic solution which has polynomial complexity. In the most challenging simulated scenario, the proposed heuristic achieves 3.5% of data rate loss compared with the optimal solution, while a benchmark from the literature achieves 18.5%. In another scenario, we evaluate the outage probability, i.e., the relative frequency in which an algorithm is not capable of finding a feasible solution to the problem. In that scenario we show that the outage rate of the optimal and proposed solutions are similar, achieving 15% and 17.5%, respectively, whereas the benchmark solution presents a significantly higher outage rate of 36%. -->
