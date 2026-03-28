@@ -1,0 +1,53 @@
+hugoblox:
+  schema: "2.0"
+  identity:
+    name: Prof. Laszlon Costa
+    type: person
+    tagline: Professor | UFCA
+    description: Small Description
+    organization: Universidade Federal do Cariri (UFCA)
+  theme:
+    mode: dark
+    pack: minimal
+    colors:
+      primary: "slate"
+      secondary: ""
+      neutral: "gray"
+    colors_light:
+      neutral: slate
+  typography:
+    font: sans
+    size: md
+    pack: developer
+  layout:
+    radius: full
+    spacing: spacious
+    avatar_shape: rounded
+  header:
+    enable: true
+    style: navbar-simple
+    sticky: true
+    align: center
+    search: false
+    theme_toggle: false
+    theme_picker: false
+  footer:
+    style: minimal
+    language_switcher: true
+    text: Made with  <3 in Juazeiro do Norte
+  copyright:
+    notice: © 2026 Laszlon Rodrigues da Costa
+  content:
+    math:
+      enable: true
+    toc:
+      enable: true
+    reading_time:
+      enable: true
+    citations:
+      style: ieee
+  search:
+    enable: true
+  repository:
+    enable: true
+    url: https://laszloncosta@github.io

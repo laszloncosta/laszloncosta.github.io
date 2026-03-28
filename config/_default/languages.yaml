@@ -1,0 +1,35 @@
+# Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://docs.hugoblox.com/reference/language/
+
+# Default language
+pt:
+  languageCode: pt
+  # contentDir: content/pt
+  title: Lászlon Costa
+  weight: 1
+  params:
+    description: Professor e pesquisador em telecomunicações e IA
+
+en:
+  languageCode: en
+  # contentDir: content/en
+  title: Lászlon Costa
+  weight: 2
+  params:
+    description: Assistant Professor working on telecom and AI
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  #contentDir: content/en
+
+# Uncomment the lines below to configure your website in a second language.
+#zh:
+#  locale: zh-Hans
+#  contentDir: content/zh
+#  title: Chinese website title...
+#  params:
+#    description: Site description in Chinese...
+#  menu:
+#    main:
+#      - name: 传
+#        url: '#about'
+#        weight: 1
