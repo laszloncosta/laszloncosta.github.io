@@ -50,8 +50,9 @@ sections:
   #   design:
   #     columns: '1'
   - block: collection
+    id: papers
     content:
-      title: Recent Publications
+      title: Publicações Recentes
       text: ''
       filters:
         folders:
@@ -60,9 +61,8 @@ sections:
     design:
       view: citation
   - block: collection
-    id: papers
     content:
-      title: Featured Publications
+      title: Principais publicações
       filters:
         folders:
           - publications

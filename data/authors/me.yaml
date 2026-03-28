@@ -49,48 +49,48 @@ education:
     start: "2009"
     end: "2014"
 experience:
-  - role: "Senior AI Research Scientist"
+  - role: "Cientista Sênior de Pesquisa em IA"
     org: "Meta AI"
     start: "2020-01-01"
-    summary: "Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.\n"
+    summary: "Liderou pesquisas em sistemas multimodais de IA. Contribuiu para o Llama 2 e outros modelos de codigo aberto.\n"
     button:
-      text: "View portfolio"
+      text: "Ver portifolio"
       url: "/"
       icon: "hero/arrow-down-tray"
-  - role: "AI Research Intern"
+  - role: "Estagiario de Pesquisa em IA"
     org: "OpenAI"
     start: "2019-06-01"
     end: "2019-12-31"
-    summary: "Worked on GPT-3 scaling. Co-authored paper on prompt engineering.\n"
+    summary: "Trabalhou em escalabilidade do GPT-3. Coautor de artigo sobre engenharia de prompts.\n"
 skills:
-  - name: "Technical Skills"
+  - name: "Competencias Tecnicas"
     items:
       - label: "Python"
         level: 5
-      - label: "Machine Learning"
+      - label: "Aprendizado de Maquina"
         level: 5
-      - label: "Cloud Computing"
+      - label: "Computacao em Nuvem"
         level: 4
-  - name: "Research & Communication"
+  - name: "Pesquisa e Comunicacao"
     items:
-      - label: "Academic Writing"
+      - label: "Redacao Academica"
         level: 5
-      - label: "Conference Presentations"
+      - label: "Apresentacoes em Conferencias"
         level: 4
-      - label: "Grant Proposals"
+      - label: "Propostas de Financiamento"
         level: 4
 languages:
-  - name: "English"
+  - name: "Ingles"
     level: 5
-    label: "Native"
-  - name: "Spanish"
+    label: "Nativo"
+  - name: "Espanhol"
     level: 4
-    label: "Fluent"
+    label: "Fluente"
 awards:
-  - title: "Best Paper Award"
+  - title: "Premio de Melhor Artigo"
     awarder: "NeurIPS"
     date: "2022-12-01"
-    summary: "Awarded for groundbreaking work on efficient training of large models."
+    summary: "Premiado por trabalho inovador sobre treinamento eficiente de grandes modelos."
     icon: "hero/trophy"
 ids:
   google_scholar: "6vDiaVcAAAAJ"

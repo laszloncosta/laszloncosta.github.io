@@ -8,11 +8,11 @@ main:
     identifier: 1d7a13af
     url: /
     weight: 10
-  - name: Papers
+  - name: Artigos
     identifier: 883db606
     url: /#papers
     weight: 20
-  - name: Publications
-    identifier: publications
-    url: /publications
+  - name: Contato
+    identifier: contato
+    url: /#contact
     weight: 30
