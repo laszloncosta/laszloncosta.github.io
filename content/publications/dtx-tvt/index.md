@@ -4,52 +4,29 @@ authors:
   - Ezequias M. S. de Santana
   - Igor Moaco Guerreiro
   - me
-  - Igor M. Guerreiro
   - Anders Landström
   - Arne Simonsson
-author_notes:
-  - ""
-date: 2026-03-28T12:29:33.712Z
-publishDate: 2026-03-28T12:29:33.712Z
+date: 2025-07-01
+publishDate: 2025-07-01
 publication_types:
   - article-journal
 publication: "IEEE Transactions on Vehicular Technology"
-publication_short: ""
-abstract: "This paper evaluates the network performance of a cellular system operating at 100 GHz with bandwidth of around 3 GHz under a dynamic transmission and reception point (TRP)-side discontinuous transmission (DTX) regime. The use of sub-terahertz (THz) bands is envisioned as a means to achieve higher data rates in sixth-generation (6G) systems. However, in this network setup, the power consumption at TRPs' radio components packed with several antenna elements significantly increases due to the very high processing burden in such a wide bandwidth. A TRP-side DTX method is proposed to avoid overheating issues, which controls the amount of downlink slot transmissions while guaranteeing cell-specific reference signaling. Simulation results considering different DTX settings and traffic loads are presented and discussed. Results show that the considered sub-THz system with the proposed DTX method can provide higher data rates and close to the same spectral efficiency compared to a typical baseline millimeter wave (mmWave) system operating at 28 GHz with 400 MHz bandwidth. It was possible to reach close to 7 times higher data rates in the simulated system utilizing the dynamic DTX method, compared to a theoretical data rate increase of 7.6 times based solely on bandwidth comparison."
-summary: One-line takeaway for readers skimming listings.
+publication_short: "IEEE TVT, v. 74, n. 7, p. 11132-11142, 2025"
+abstract: "Artigo sobre avaliação de desempenho de uma rede celular downlink em sub-THz operando com transmissão descontínua dinâmica (DTX), considerando ganhos de taxa, eficiência espectral e limitações de consumo/temperatura em pontos de transmissão e recepção."
+summary: "Avaliação sistêmica de downlink sub-THz com DTX dinâmica para cenários 6G."
 tags:
-  - DTX 
-  - Thz
-  - Energy Efficiency
+  - DTX
+  - Sub-THz
+  - Energy efficiency
   - 6G
 featured: true
 hugoblox:
   ids:
-    # arxiv: ""
     doi: "10.1109/TVT.2025.3545277"
 links:
-  # - type: pdf
-  #   url: "https://jcis.sbrt.org.br/jcis/article/view/932/627"
-  # - type: doi
-    # url: "https://doi.org/10.14209/jcis.2025.10"
-  # - type: dataset
-  #   url: ""
-  # - type: poster
-  #   url: ""
-  # - type: project
-  #   url: ""
-  # - type: slides
-  #   url: ""
-  # - type: source
-  #   url: ""
-  # - type: video
-  #   url: ""
-# image:
-#   caption: "Image credit: [JCIS](https://jcis.sbrt.org.br/)"
-#   focal_point: ""
-#   preview_only: false
+  - type: doi
+    url: "https://doi.org/10.1109/TVT.2025.3545277"
 projects: []
 slides: ""
 status: published
 ---
-<!-- Add the paper text or supplementary notes. Markdown, math, and code are supported. -->

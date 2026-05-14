@@ -5,41 +5,28 @@ authors:
   - me
   - Igor Moaco Guerreiro
   - Fredrik Athley
-author_notes:
-  - ""
-date: 2026-03-28T12:29:33.712Z
-publishDate: 2026-03-28T12:29:33.712Z
+date: 2025-11-28
+publishDate: 2025-11-28
 publication_types:
   - article-journal
 publication: "Journal of Communication and Information Systems"
-publication_short: ""
-abstract: "This work proposes an angle of arrival (AoA) estimator for analog beam refinement in cellular systems operating in millimeter wave (mmWave) bands. Differently from previous works, the proposed method exploits the polarization domain and the concept of virtual arrays to estimate the AoA through a cross-correlation function. The proposed AoA estimator requires only a polarization-multiplexed measurement to estimate the AoA at the receiver. To cope with polarization leakage issues, this work proposes a channel equalization in the polarization domain conditioned on the estimation of the cross-channel gain. Simulation results indicate that the beam refinement procedure with the proposed AoA estimator has similar performance to the classical beam sweeping, but using less time-multiplexed measurements."
-summary: One-line takeaway for readers skimming listings.
+publication_short: "JCIS, vol. 40, no. 1, pp. 92-96, 2025"
+abstract: "This paper studies angle-of-arrival (AoA) estimation for analog beam refinement in mmWave cellular systems, using dual polarization and virtual sub-arrays to reduce the need for time-multiplexed measurements."
+summary: "AoA estimation for analog beam refinement in dual-polarization mmWave systems."
 tags:
-  - Research
-  - Data
+  - Beam management
+  - mmWave
+  - AoA estimation
+  - 5G
 featured: true
 hugoblox:
   ids:
-    # arxiv: ""
-    doi: "https://doi.org/10.14209/jcis.2025.10"
+    doi: "10.14209/jcis.2025.10"
 links:
+  - type: doi
+    url: "https://doi.org/10.14209/jcis.2025.10"
   - type: pdf
     url: "https://jcis.sbrt.org.br/jcis/article/view/932/627"
-  # - type: doi
-    # url: "https://doi.org/10.14209/jcis.2025.10"
-  # - type: dataset
-  #   url: ""
-  # - type: poster
-  #   url: ""
-  # - type: project
-  #   url: ""
-  # - type: slides
-  #   url: ""
-  # - type: source
-  #   url: ""
-  # - type: video
-  #   url: ""
 image:
   caption: "Image credit: [JCIS](https://jcis.sbrt.org.br/)"
   focal_point: ""
@@ -48,4 +35,3 @@ projects: []
 slides: ""
 status: published
 ---
-<!-- Add the paper text or supplementary notes. Markdown, math, and code are supported. -->

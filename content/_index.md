@@ -16,9 +16,9 @@ sections:
       username: me
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      # button:
-        # text: Download CV
-        # url: uploads/resume.pdf
+      button:
+        text: Currículo Lattes
+        url: http://lattes.cnpq.br/4904450975368417
       headings:
         about: ''
         education: ''
@@ -62,7 +62,7 @@ sections:
       view: citation
   - block: collection
     content:
-      title: Principais publicações
+      title: Publicações em Destaque
       filters:
         folders:
           - publications

@@ -9,7 +9,21 @@ pt:
   title: Lászlon Costa
   weight: 1
   params:
-    description: Professor e pesquisador em telecomunicações e IA
+    description: Professor da UFCA, pesquisador em redes móveis e coordenador do NIT/PRPI
+  menu:
+    main:
+      - name: Bio
+        identifier: bio
+        url: /
+        weight: 10
+      - name: Publicações
+        identifier: publications
+        url: /#papers
+        weight: 20
+      - name: Experiência
+        identifier: experience
+        url: /experience
+        weight: 30
 
 en:
   languageCode: en
@@ -17,7 +31,21 @@ en:
   title: Lászlon Costa
   weight: 2
   params:
-    description: Assistant Professor working on telecom and AI
+    description: Assistant Professor at UFCA, mobile networks researcher, and NIT/PRPI coordinator
+  menu:
+    main:
+      - name: Bio
+        identifier: bio
+        url: /en/
+        weight: 10
+      - name: Publications
+        identifier: publications
+        url: /en/#papers
+        weight: 20
+      - name: Experience
+        identifier: experience
+        url: /en/experience
+        weight: 30
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 

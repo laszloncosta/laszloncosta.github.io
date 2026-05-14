@@ -16,9 +16,9 @@ sections:
       username: me
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      # button:
-        # text: Download CV
-        # url: uploads/resume.pdf
+      button:
+        text: Lattes CV
+        url: http://lattes.cnpq.br/4904450975368417
       headings:
         about: ''
         education: ''
@@ -50,6 +50,7 @@ sections:
   #   design:
   #     columns: '1'
   - block: collection
+    id: papers
     content:
       title: Recent Publications
       text: ''
@@ -60,7 +61,6 @@ sections:
     design:
       view: citation
   - block: collection
-    id: papers
     content:
       title: Featured Publications
       filters:

@@ -1,5 +1,5 @@
 ---
-title: Publicações
+title: Publications
 date: 2023-10-24
 type: landing
 
@@ -17,7 +17,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Publicações
+      title: Publications
       text: ''
       filters:
         folders:
