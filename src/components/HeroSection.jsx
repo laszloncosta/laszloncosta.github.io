@@ -3,7 +3,7 @@ import bioData from '../data/bio.json';
 
 export default function HeroSection() {
   return (
-    <section id="about" className="py-16 md:py-24 bg-gradient-to-br from-blue-50/50 to-white">
+    <section id="about" className="py-16 md:py-24 bg-gradient-to-br from-teal-50/50 to-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
         
         {/* Coluna Esquerda: Foto */}
@@ -20,7 +20,7 @@ export default function HeroSection() {
           </h1>
           
           <div className="space-y-2 mb-6">
-            <h2 className="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
+            <h2 className="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-stone-800 to-stone-500">
               {bioData.title}
             </h2>
             <p className="text-lg text-gray-600 font-medium">
@@ -33,22 +33,22 @@ export default function HeroSection() {
           </p>
 
           <div className="flex flex-wrap justify-center md:justify-start gap-3">
-            <a href={`mailto:${bioData.email}`} className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 hover:shadow-md transition-all shadow-sm text-sm">
+            <a href={`mailto:${bioData.email}`} className="flex items-center gap-2 px-4 py-2 bg-teal-600 text-white font-medium rounded-lg hover:bg-teal-700 hover:shadow-md transition-all shadow-sm text-sm">
               <Mail size={16} /> Email
             </a>
-            <a href={bioData.links.scholar} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-blue-50 hover:text-blue-600 hover:border-blue-300 transition-colors shadow-sm text-sm">
+            <a href={bioData.links.scholar} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-teal-50 hover:text-teal-600 hover:border-teal-300 transition-colors shadow-sm text-sm">
               <GraduationCap size={16} /> Scholar
             </a>
-            <a href={bioData.links.lattes} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-blue-50 hover:text-blue-600 hover:border-blue-300 transition-colors shadow-sm text-sm">
+            <a href={bioData.links.lattes} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-teal-50 hover:text-teal-600 hover:border-teal-300 transition-colors shadow-sm text-sm">
               <ExternalLink size={16} /> Lattes
             </a>
-            <a href={bioData.links.linkedin} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-blue-50 hover:text-blue-600 hover:border-blue-300 transition-colors shadow-sm text-sm">
+            <a href={bioData.links.linkedin} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-teal-50 hover:text-teal-600 hover:border-teal-300 transition-colors shadow-sm text-sm">
               <Briefcase size={16} /> LinkedIn
             </a>
-            <a href={bioData.links.github} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-blue-50 hover:text-blue-600 hover:border-blue-300 transition-colors shadow-sm text-sm">
+            <a href={bioData.links.github} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-teal-50 hover:text-teal-600 hover:border-teal-300 transition-colors shadow-sm text-sm">
               <Code size={16} /> GitHub
             </a>
-            <a href={bioData.links.researchgate} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-blue-50 hover:text-blue-600 hover:border-blue-300 transition-colors shadow-sm text-sm">
+            <a href={bioData.links.researchgate} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-teal-50 hover:text-teal-600 hover:border-teal-300 transition-colors shadow-sm text-sm">
               <BookOpen size={16} /> ResearchGate
             </a>
           </div>

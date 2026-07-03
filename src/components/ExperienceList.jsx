@@ -6,7 +6,7 @@ export default function ExperienceList() {
     <section id="experience" className="py-16 md:py-24 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center gap-3 mb-10">
-          <Briefcase className="text-blue-600" size={32} />
+          <Briefcase className="text-teal-600" size={32} />
           <h2 className="text-3xl font-bold text-gray-900 tracking-tight">Experience</h2>
         </div>
 
@@ -15,7 +15,7 @@ export default function ExperienceList() {
             <div key={exp.id} className="relative pl-8 md:pl-0">
               <div className="md:flex md:justify-between md:items-baseline mb-2">
                 <h3 className="text-xl font-bold text-gray-900">{exp.role}</h3>
-                <span className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full whitespace-nowrap mt-2 md:mt-0 inline-block">
+                <span className="text-sm font-medium text-teal-600 bg-teal-50 px-3 py-1 rounded-full whitespace-nowrap mt-2 md:mt-0 inline-block">
                   {exp.period}
                 </span>
               </div>
@@ -25,7 +25,7 @@ export default function ExperienceList() {
               </p>
               
               {/* Timeline dot (hidden on small screens, shown as decorative on md+) */}
-              <div className="hidden md:block absolute left-[-25px] top-2 w-3 h-3 bg-blue-500 rounded-full border-4 border-white shadow-sm ring-1 ring-gray-200"></div>
+              <div className="hidden md:block absolute left-[-25px] top-2 w-3 h-3 bg-teal-500 rounded-full border-4 border-white shadow-sm ring-1 ring-gray-200"></div>
             </div>
           ))}
           

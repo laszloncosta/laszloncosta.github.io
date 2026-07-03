@@ -10,14 +10,14 @@ export default function NewsList() {
         <div className="space-y-4">
           {newsData.map((item) => (
             <div key={item.id} className="group flex flex-col sm:flex-row sm:items-baseline gap-2 sm:gap-6 p-4 rounded-xl hover:bg-white hover:shadow-sm transition-all">
-              <div className="text-sm font-semibold text-blue-600 shrink-0 w-32">
+              <div className="text-sm font-semibold text-teal-600 shrink-0 w-32">
                 {item.date}
               </div>
               <div className="flex-1 text-gray-800">
                 <h4 className="font-bold text-gray-900 mb-1">{item.title}</h4>
                 <p className="text-gray-600 text-sm md:text-base">{item.summary}</p>
                 {item.link && item.link !== "#" && (
-                  <a href={item.link} target="_blank" rel="noreferrer" className="inline-flex items-center text-sm font-medium text-blue-600 mt-2 group-hover:underline">
+                  <a href={item.link} target="_blank" rel="noreferrer" className="inline-flex items-center text-sm font-medium text-teal-600 mt-2 group-hover:underline">
                     Read more <ArrowRight size={14} className="ml-1" />
                   </a>
                 )}
