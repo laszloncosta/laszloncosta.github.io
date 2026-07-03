@@ -19,9 +19,12 @@ export default function LabsAffiliation() {
               rel="noreferrer"
               className="group block p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-all hover:-translate-y-1"
             >
-              <div className="h-24 bg-gray-50 rounded-xl mb-4 flex items-center justify-center border border-gray-100 group-hover:bg-teal-50 transition-colors text-gray-400 font-bold text-xl tracking-wider">
-                {/* Logo textual provisória */}
-                {lab.logo}
+              <div className="h-24 bg-white rounded-xl mb-4 flex items-center justify-center border border-gray-100 group-hover:bg-teal-50/50 transition-colors p-4">
+                {lab.image ? (
+                  <img src={lab.image} alt={lab.name} className="max-h-full max-w-full object-contain" />
+                ) : (
+                  <span className="text-gray-400 font-bold text-xl tracking-wider">{lab.logo || lab.name}</span>
+                )}
               </div>
               <h4 className="text-lg font-semibold text-gray-900 mb-2 flex items-center justify-between">
                 {lab.name}

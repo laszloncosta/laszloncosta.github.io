@@ -4,20 +4,20 @@
     "name": "NEST",
     "description": "Núcleo de Estudos em Sistemas de Telecomunicações",
     "url": "https://nest.ufc.br",
-    "logo": "NEST"
+    "image": "/nest-logo.png"
   },
   {
     "id": "padimlab",
     "name": "PADIM",
     "description": "Laboratório de Práticas Avançadas em Desenvolvimento, Inovação e Metodologias para Engenharia de Sistemas",
     "url": "#",
-    "logo": "PADIM"
+    "image": "/padim-logo.png"
   },
   {
     "id": "gtel",
     "name": "GTEL",
     "description": "Wireless Telecommunications Research Group",
     "url": "https://www.gtel.ufc.br",
-    "logo": "GTEL"
+    "image": "/gtel-logo.png"
   }
 ]
