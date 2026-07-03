@@ -8,13 +8,13 @@ export default function Navbar() {
           <div className="shrink-0 flex items-center">
             <img src="/ufca-logo-horizontal.png" alt="UFCA" className="h-7 sm:h-9 w-auto object-contain" />
           </div>
-          <div className="hidden sm:flex sm:space-x-8">
-            <a href="#about" className="text-gray-600 hover:text-teal-600 px-3 py-2 text-sm font-medium transition-colors">Home</a>
-            <a href="#experience" className="text-gray-600 hover:text-teal-600 px-3 py-2 text-sm font-medium transition-colors">Experience</a>
-            <a href="#patents" className="text-gray-600 hover:text-teal-600 px-3 py-2 text-sm font-medium transition-colors">Patents</a>
-            <a href="#publications" className="text-gray-600 hover:text-teal-600 px-3 py-2 text-sm font-medium transition-colors">Publications</a>
-            <a href="#news" className="text-gray-600 hover:text-teal-600 px-3 py-2 text-sm font-medium transition-colors">News</a>
-            <a href="#labs" className="text-gray-600 hover:text-teal-600 px-3 py-2 text-sm font-medium transition-colors">Laboratories</a>
+          <div className="hidden md:flex items-center gap-2 lg:gap-6">
+            <a href="#about" className="text-gray-600 hover:text-teal-600 px-2 py-2 text-sm font-medium transition-colors">Home</a>
+            <a href="#experience" className="text-gray-600 hover:text-teal-600 px-2 py-2 text-sm font-medium transition-colors">Experience</a>
+            <a href="#patents" className="text-gray-600 hover:text-teal-600 px-2 py-2 text-sm font-medium transition-colors">Patents</a>
+            <a href="#publications" className="text-gray-600 hover:text-teal-600 px-2 py-2 text-sm font-medium transition-colors">Publications</a>
+            <a href="#news" className="text-gray-600 hover:text-teal-600 px-2 py-2 text-sm font-medium transition-colors">News</a>
+            <a href="#labs" className="text-gray-600 hover:text-teal-600 px-2 py-2 text-sm font-medium transition-colors">Laboratories</a>
           </div>
         </div>
       </div>
