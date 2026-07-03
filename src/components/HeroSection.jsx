@@ -4,15 +4,21 @@ import bioData from '../data/bio.json';
 export default function HeroSection() {
   return (
     <section id="about" className="py-16 md:py-24 bg-gradient-to-br from-blue-50/50 to-white">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-12">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
         
-        {/* Foto de Perfil */}
-        <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-2xl shrink-0 border-4 border-white">
-          <img src="/profile.jpg" alt={bioData.name} className="w-full h-full object-cover" />
+        {/* Coluna Esquerda: Foto e Brasão */}
+        <div className="flex flex-col items-center gap-8 shrink-0">
+          <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden shadow-2xl border-4 border-white">
+            <img src="/profile.jpg" alt={bioData.name} className="w-full h-full object-cover" />
+          </div>
+          
+          <div className="hidden md:block">
+            <img src="/ufca-logo.png" alt="UFCA Logo" className="h-36 object-contain drop-shadow-sm hover:scale-105 transition-transform duration-300" />
+          </div>
         </div>
 
         {/* Informações */}
-        <div className="flex-1 text-center md:text-left">
+        <div className="flex-1 text-center md:text-left md:pt-4">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight mb-4">
             {bioData.name}
           </h1>
@@ -51,8 +57,9 @@ export default function HeroSection() {
             </a>
           </div>
 
-          <div className="mt-12 pt-8 border-t border-gray-100 flex justify-center md:justify-start">
-            <img src="/ufca-logo.png" alt="UFCA Logo" className="h-32 md:h-40 object-contain drop-shadow-sm hover:scale-105 transition-transform duration-300" />
+          {/* Brasão no Mobile (No fim das informações) */}
+          <div className="md:hidden mt-10 pt-8 border-t border-gray-100 flex justify-center">
+            <img src="/ufca-logo.png" alt="UFCA Logo" className="h-32 object-contain drop-shadow-sm hover:scale-105 transition-transform duration-300" />
           </div>
         </div>
       </div>
