@@ -6,14 +6,10 @@ export default function HeroSection() {
     <section id="about" className="py-16 md:py-24 bg-gradient-to-br from-blue-50/50 to-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
         
-        {/* Coluna Esquerda: Foto e Brasão */}
+        {/* Coluna Esquerda: Foto */}
         <div className="flex flex-col items-center gap-6 shrink-0">
           <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden shadow-2xl border-4 border-white">
             <img src="/profile.jpg" alt={bioData.name} className="w-full h-full object-cover" />
-          </div>
-          
-          <div className="hidden md:block">
-            <img src="/ufca-logo.png" alt="UFCA Logo" className="w-32 md:w-40 h-auto object-contain drop-shadow-sm hover:scale-105 transition-transform duration-300" />
           </div>
         </div>
 
@@ -55,11 +51,6 @@ export default function HeroSection() {
             <a href={bioData.links.researchgate} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-blue-50 hover:text-blue-600 hover:border-blue-300 transition-colors shadow-sm text-sm">
               <BookOpen size={16} /> ResearchGate
             </a>
-          </div>
-
-          {/* Brasão no Mobile (No fim das informações) */}
-          <div className="md:hidden mt-10 pt-8 border-t border-gray-100 flex justify-center">
-            <img src="/ufca-logo.png" alt="UFCA Logo" className="h-32 object-contain drop-shadow-sm hover:scale-105 transition-transform duration-300" />
           </div>
         </div>
       </div>
