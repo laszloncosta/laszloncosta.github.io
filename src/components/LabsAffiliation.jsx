@@ -19,7 +19,7 @@ export default function LabsAffiliation() {
               rel="noreferrer"
               className="group block p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-all hover:-translate-y-1"
             >
-              <div className={`h-24 rounded-xl mb-4 flex items-center justify-center border border-gray-100 transition-colors p-4 ${lab.id === 'gtel' ? 'bg-stone-800 group-hover:bg-stone-700' : 'bg-white group-hover:bg-teal-50/50'}`}>
+              <div className="h-24 bg-stone-900 rounded-xl mb-4 flex items-center justify-center border border-gray-100 group-hover:bg-stone-800 transition-colors p-4">
                 {lab.image ? (
                   <img src={lab.image} alt={lab.name} className="max-h-full max-w-full object-contain" />
                 ) : (

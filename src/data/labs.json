@@ -4,7 +4,7 @@
     "name": "NEST",
     "description": "Núcleo de Estudos em Sistemas de Telecomunicações",
     "url": "https://nest.ufc.br",
-    "image": "/nest-logo.png"
+    "image": "/gtel-logo.png"
   },
   {
     "id": "padimlab",
@@ -18,6 +18,6 @@
     "name": "GTEL",
     "description": "Wireless Telecommunications Research Group",
     "url": "https://www.gtel.ufc.br",
-    "image": "/gtel-logo.png"
+    "image": "/nest-logo.png"
   }
 ]
