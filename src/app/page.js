@@ -12,9 +12,9 @@ export default function Home() {
     <main className="min-h-screen flex flex-col">
       <Navbar />
       <HeroSection />
+      <LabsAffiliation />
       <ExperienceList />
       <PatentsList />
-      <LabsAffiliation />
       <NewsList />
       <PublicationsList />
       <Footer />
