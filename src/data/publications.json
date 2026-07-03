@@ -1,20 +1,92 @@
 [
   {
-    "id": 1,
-    "title": "Exemplo de Publicação com Título Muito Importante sobre Telecomunicações",
-    "authors": "Seu Nome, Outro Autor, Orientador",
-    "venue": "IEEE Transactions on Communications",
-    "year": 2026,
-    "url": "https://doi.org/...",
-    "pdf": "#"
+    "id": 9,
+    "title": "AoA Estimation in Dual-Polarization Virtual Sub-Arrays for Analog Beam Refinement",
+    "authors": "Michel Gonzaga dos Santos, Laszlon Costa, Igor Moaco Guerreiro, Fredrik Athley",
+    "venue": "Journal of Communication and Information Systems",
+    "year": 2025,
+    "url": "https://doi.org/10.14209/jcis.2025.10",
+    "pdf": "https://doi.org/10.14209/jcis.2025.10"
+  },
+  {
+    "id": 10,
+    "title": "Network Performance Evaluation of a Sub-THz Downlink System Operating Under Dynamic DTX",
+    "authors": "Ezequias M. S. de Santana, Igor Moaco Guerreiro, Laszlon Costa, Anders Landström, Arne Simonsson",
+    "venue": "IEEE Transactions on Vehicular Technology",
+    "year": 2025,
+    "url": "https://doi.org/10.1109/TVT.2025.3545277",
+    "pdf": "https://doi.org/10.1109/TVT.2025.3545277"
   },
   {
     "id": 2,
-    "title": "Machine Learning Applied to Wireless Networks: A Review",
-    "authors": "Seu Nome, Co-Autor",
-    "venue": "Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT)",
-    "year": 2025,
-    "url": "https://doi.org/...",
-    "pdf": "#"
+    "title": "Interference Mitigation for Dynamic TDD Networks Employing Sounding Signals",
+    "authors": "Darlan Cavalcante Moreira, Laszlon Costa, Yuri C. B. Silva, Igor Moaco Guerreiro",
+    "venue": "Journal of Communication and Information Systems",
+    "year": 2020,
+    "url": "https://doi.org/10.14209/jcis.2020.32",
+    "pdf": "https://doi.org/10.14209/jcis.2020.32"
+  },
+  {
+    "id": 1,
+    "title": "Beam Allocation based on Spatial Compatibility for Hybrid Beamforming C-RAN Networks",
+    "authors": "Laszlon Costa, Yuri C. B. Silva, Francisco Rafael Marques Lima, Anja Klein",
+    "venue": "WSA 2019: 23rd International ITG Workshop on Smart Antennas",
+    "year": 2019,
+    "url": "https://www.kt.tu-darmstadt.de/media/kt/publikationen_1/10/19/WSA_DaCosta.pdf",
+    "pdf": "https://www.kt.tu-darmstadt.de/media/kt/publikationen_1/10/19/WSA_DaCosta.pdf"
+  },
+  {
+    "id": 4,
+    "title": "Radio resource allocation in multi-cell and multi-service mobile network based on QoS requirements",
+    "authors": "Laszlon Costa, Francisco Rafael Marques Lima, Yuri C. B. Silva, F. Rodrigo P. Cavalcanti",
+    "venue": "Computer Communications",
+    "year": 2019,
+    "url": "https://doi.org/10.1016/j.comcom.2018.12.007",
+    "pdf": "https://doi.org/10.1016/j.comcom.2018.12.007"
+  },
+  {
+    "id": 6,
+    "title": "User Grouping Based on Spatial Compatibility for Dynamic-TDD Cooperative Networks",
+    "authors": "Laszlon Costa, Darlan Cavalcante Moreira, Yuri C. B. Silva, Walter da Cruz Freitas Jr., Francisco Rafael Marques Lima",
+    "venue": "2018 IEEE Global Communications Conference (GLOBECOM)",
+    "year": 2018,
+    "url": "https://doi.org/10.1109/GLOCOM.2018.8647677",
+    "pdf": "https://doi.org/10.1109/GLOCOM.2018.8647677"
+  },
+  {
+    "id": 3,
+    "title": "Solução Ótima para Alocação de Recursos de Rádio com Restrições de QoS em Sistemas Multicelulares com Múltiplos Serviços",
+    "authors": "Laszlon Costa, Francisco Rafael Marques Lima, Yuri C. B. Silva, F. Rodrigo P. Cavalcanti",
+    "venue": "XXXIV Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos",
+    "year": 2016,
+    "url": "https://sbrc2016.ufba.br/trilha-principal/artigos-aceitos/en/",
+    "pdf": "https://sbrc2016.ufba.br/trilha-principal/artigos-aceitos/en/"
+  },
+  {
+    "id": 5,
+    "title": "Interference Mitigation Based on Precoded SRS",
+    "authors": "Laszlon Costa, Darlan Cavalcante Moreira, Sara Sandberg, Arne Simonsson, Yuri C. B. Silva",
+    "venue": "2016 IEEE Sensor Array and Multichannel Signal Processing Workshop (SAM)",
+    "year": 2016,
+    "url": "https://doi.org/10.1109/SAM.2016.7569712",
+    "pdf": "https://doi.org/10.1109/SAM.2016.7569712"
+  },
+  {
+    "id": 8,
+    "title": "SDMA Group Selection for Reduced Computational Complexity on MU MIMO Systems",
+    "authors": "Laszlon Costa, Francisco Rafael Marques Lima, Tarcisio Ferreira Maciel, Yuri C. B. Silva, F. Rodrigo P. Cavalcanti",
+    "venue": "XXXIV Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos",
+    "year": 2016,
+    "url": "https://sbrc2016.ufba.br/downloads/SessoesTecnicas/152285.pdf",
+    "pdf": "https://sbrc2016.ufba.br/downloads/SessoesTecnicas/152285.pdf"
+  },
+  {
+    "id": 7,
+    "title": "Desenvolvimento de interface didática para uso da placa de aquisição de dados NIDAQ USB 6009 em ambiente Scilab",
+    "authors": "Laszlon Costa, Wilkley Bezerra Correia, Vandilberto Pereira Pinto, Rômulo Nunes de Carvalho Almeida",
+    "venue": "XLI Congresso Brasileiro de Educação em Engenharia",
+    "year": 2013,
+    "url": "https://www.turing.pro.br/anais/COBENGE-2013/pdf/117529_1.pdf",
+    "pdf": "https://www.turing.pro.br/anais/COBENGE-2013/pdf/117529_1.pdf"
   }
 ]

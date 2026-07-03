@@ -1,14 +1,23 @@
 [
   {
     "id": 1,
-    "date": "Julho de 2026",
-    "content": "Site acadêmico lançado com sucesso utilizando Next.js e GitHub Pages!",
-    "url": "#"
+    "date": "2025",
+    "title": "New Paper Published in JCIS",
+    "summary": "Our paper 'AoA Estimation in Dual-Polarization Virtual Sub-Arrays for Analog Beam Refinement' was published in the Journal of Communication and Information Systems.",
+    "link": "https://doi.org/10.14209/jcis.2025.10"
   },
   {
     "id": 2,
-    "date": "Maio de 2026",
-    "content": "Novo artigo aprovado na conferência internacional XYZ.",
-    "url": "https://doi.org/..."
+    "date": "2025",
+    "title": "Paper Accepted at IEEE TVT",
+    "summary": "The work 'Network Performance Evaluation of a Sub-THz Downlink System Operating Under Dynamic DTX' has been published in the prestigious IEEE Transactions on Vehicular Technology.",
+    "link": "https://doi.org/10.1109/TVT.2025.3545277"
+  },
+  {
+    "id": 3,
+    "date": "2020",
+    "title": "Publication on Interference Mitigation",
+    "summary": "The paper 'Interference Mitigation for Dynamic TDD Networks Employing Sounding Signals' was published in the Journal of Communication and Information Systems.",
+    "link": "https://doi.org/10.14209/jcis.2020.32"
   }
 ]

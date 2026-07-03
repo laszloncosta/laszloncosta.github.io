@@ -2,7 +2,7 @@
   {
     "id": "nest",
     "name": "NEST",
-    "description": "Núcleo de Engenharia de Sistemas e Tecnologias",
+    "description": "Systems and Technologies Engineering Core",
     "url": "https://nest.ufc.br",
     "logo": "NEST"
   },
@@ -16,7 +16,7 @@
   {
     "id": "gtel",
     "name": "GTEL",
-    "description": "Grupo de Pesquisa em Telecomunicações sem Fio",
+    "description": "Wireless Telecommunications Research Group",
     "url": "https://www.gtel.ufc.br",
     "logo": "GTEL"
   }

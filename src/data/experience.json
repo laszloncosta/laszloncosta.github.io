@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "role": "Professor",
+    "institution": "Federal University of Cariri (UFCA)",
+    "period": "2025 - Present",
+    "description": "Professor in the Computer Science and Materials Engineering programs, teaching courses such as Concurrent Programming, Compilers, and Wireless Networks. Also serves as Coordinator of the Technological Innovation Core (NIT/PRPI) since 2026."
+  },
+  {
+    "id": 2,
+    "role": "Postdoctoral Researcher",
+    "institution": "Federal University of Ceará (UFC)",
+    "period": "2021 - 2022",
+    "description": "Researcher in the project 'Initial and Integrated Cellular Access to the Transport Network for Next Generation Wireless Systems' in partnership with Ericsson."
+  },
+  {
+    "id": 3,
+    "role": "IT Project Manager",
+    "institution": "Instituto Atlântico",
+    "period": "2024 - 2025",
+    "description": "Management of IT projects and software development teams."
+  },
+  {
+    "id": 4,
+    "role": "Systems Analyst",
+    "institution": "Instituto Atlântico",
+    "period": "2022 - 2024",
+    "description": "Development of technological solutions and requirements analysis for innovation projects."
+  }
+]
