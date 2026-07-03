@@ -2,16 +2,16 @@
   {
     "id": "nest",
     "name": "NEST",
-    "description": "Systems and Technologies Engineering Core",
+    "description": "Núcleo de Estudos em Sistemas de Telecomunicações",
     "url": "https://nest.ufc.br",
     "logo": "NEST"
   },
   {
     "id": "padimlab",
-    "name": "PADIMLAB",
-    "description": "Processing and Analysis of Data, Images, and Models Laboratory",
+    "name": "PADIM",
+    "description": "Laboratório de Práticas Avançadas em Desenvolvimento, Inovação e Metodologias para Engenharia de Sistemas",
     "url": "#",
-    "logo": "PADIMLAB"
+    "logo": "PADIM"
   },
   {
     "id": "gtel",
