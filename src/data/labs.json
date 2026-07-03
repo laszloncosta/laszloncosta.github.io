@@ -1,0 +1,23 @@
+[
+  {
+    "id": "nest",
+    "name": "NEST",
+    "description": "Núcleo de Engenharia de Sistemas e Tecnologias",
+    "url": "https://nest.ufc.br",
+    "logo": "NEST"
+  },
+  {
+    "id": "padimlab",
+    "name": "PADIMLAB",
+    "description": "Processing and Analysis of Data, Images, and Models Laboratory",
+    "url": "#",
+    "logo": "PADIMLAB"
+  },
+  {
+    "id": "gtel",
+    "name": "GTEL",
+    "description": "Grupo de Pesquisa em Telecomunicações sem Fio",
+    "url": "https://www.gtel.ufc.br",
+    "logo": "GTEL"
+  }
+]

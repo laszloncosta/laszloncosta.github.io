@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Exemplo de Publicação com Título Muito Importante sobre Telecomunicações",
+    "authors": "Seu Nome, Outro Autor, Orientador",
+    "venue": "IEEE Transactions on Communications",
+    "year": 2026,
+    "url": "https://doi.org/...",
+    "pdf": "#"
+  },
+  {
+    "id": 2,
+    "title": "Machine Learning Applied to Wireless Networks: A Review",
+    "authors": "Seu Nome, Co-Autor",
+    "venue": "Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT)",
+    "year": 2025,
+    "url": "https://doi.org/...",
+    "pdf": "#"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "Seu Nome Completo",
+  "title": "Pesquisador / Doutorando / Professor",
+  "institution": "Universidade Federal do Ceará (UFC)",
+  "department": "Departamento de Engenharia de Teleinformática",
+  "location": "Campus do Pici S/N, B. 725 CP 6005, Fortaleza, CE",
+  "email": "seu-email@gtel.ufc.br",
+  "about": "Escreva aqui um breve parágrafo sobre a sua pesquisa, seus interesses e sua trajetória acadêmica. Este texto aparecerá na seção principal do site.",
+  "links": {
+    "scholar": "https://scholar.google.com/",
+    "lattes": "http://lattes.cnpq.br/",
+    "linkedin": "https://linkedin.com/in/seu-perfil",
+    "github": "https://github.com/seu-usuario"
+  }
+}

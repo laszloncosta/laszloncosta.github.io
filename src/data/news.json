@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "date": "Julho de 2026",
+    "content": "Site acadêmico lançado com sucesso utilizando Next.js e GitHub Pages!",
+    "url": "#"
+  },
+  {
+    "id": 2,
+    "date": "Maio de 2026",
+    "content": "Novo artigo aprovado na conferência internacional XYZ.",
+    "url": "https://doi.org/..."
+  }
+]
