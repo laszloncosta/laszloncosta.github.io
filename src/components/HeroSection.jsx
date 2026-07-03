@@ -7,9 +7,29 @@ export default function HeroSection() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
         
         {/* Coluna Esquerda: Foto */}
-        <div className="flex flex-col items-center gap-6 shrink-0">
+        <div className="flex flex-col items-center gap-5 shrink-0 md:w-64">
           <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden shadow-2xl border-4 border-white">
             <img src="/profile.jpg" alt={bioData.name} className="w-full h-full object-cover" />
+          </div>
+          <div className="flex flex-wrap justify-center gap-2 w-full">
+            <a href={`mailto:${bioData.email}`} className="w-full flex justify-center items-center gap-2 px-4 py-2 bg-teal-600 text-white font-medium rounded-lg hover:bg-teal-700 hover:shadow-md transition-all shadow-sm text-sm">
+              <Mail size={16} /> Email
+            </a>
+            <a href={bioData.links.scholar} target="_blank" rel="noreferrer" className="flex-1 flex justify-center items-center gap-2 px-2 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-teal-50 hover:text-teal-600 hover:border-teal-300 transition-colors shadow-sm text-xs">
+              <GraduationCap size={14} /> Scholar
+            </a>
+            <a href={bioData.links.lattes} target="_blank" rel="noreferrer" className="flex-1 flex justify-center items-center gap-2 px-2 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-teal-50 hover:text-teal-600 hover:border-teal-300 transition-colors shadow-sm text-xs">
+              <ExternalLink size={14} /> Lattes
+            </a>
+            <a href={bioData.links.linkedin} target="_blank" rel="noreferrer" className="flex-1 flex justify-center items-center gap-2 px-2 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-teal-50 hover:text-teal-600 hover:border-teal-300 transition-colors shadow-sm text-xs">
+              <Briefcase size={14} /> LinkedIn
+            </a>
+            <a href={bioData.links.github} target="_blank" rel="noreferrer" className="flex-1 flex justify-center items-center gap-2 px-2 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-teal-50 hover:text-teal-600 hover:border-teal-300 transition-colors shadow-sm text-xs">
+              <Code size={14} /> GitHub
+            </a>
+            <a href={bioData.links.researchgate} target="_blank" rel="noreferrer" className="w-full flex justify-center items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-teal-50 hover:text-teal-600 hover:border-teal-300 transition-colors shadow-sm text-xs">
+              <BookOpen size={14} /> ResearchGate
+            </a>
           </div>
         </div>
 
@@ -32,26 +52,7 @@ export default function HeroSection() {
             {bioData.about}
           </p>
 
-          <div className="flex flex-wrap justify-center md:justify-start gap-3">
-            <a href={`mailto:${bioData.email}`} className="flex items-center gap-2 px-4 py-2 bg-teal-600 text-white font-medium rounded-lg hover:bg-teal-700 hover:shadow-md transition-all shadow-sm text-sm">
-              <Mail size={16} /> Email
-            </a>
-            <a href={bioData.links.scholar} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-teal-50 hover:text-teal-600 hover:border-teal-300 transition-colors shadow-sm text-sm">
-              <GraduationCap size={16} /> Scholar
-            </a>
-            <a href={bioData.links.lattes} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-teal-50 hover:text-teal-600 hover:border-teal-300 transition-colors shadow-sm text-sm">
-              <ExternalLink size={16} /> Lattes
-            </a>
-            <a href={bioData.links.linkedin} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-teal-50 hover:text-teal-600 hover:border-teal-300 transition-colors shadow-sm text-sm">
-              <Briefcase size={16} /> LinkedIn
-            </a>
-            <a href={bioData.links.github} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-teal-50 hover:text-teal-600 hover:border-teal-300 transition-colors shadow-sm text-sm">
-              <Code size={16} /> GitHub
-            </a>
-            <a href={bioData.links.researchgate} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-teal-50 hover:text-teal-600 hover:border-teal-300 transition-colors shadow-sm text-sm">
-              <BookOpen size={16} /> ResearchGate
-            </a>
-          </div>
+
         </div>
       </div>
     </section>
