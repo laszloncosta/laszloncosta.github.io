@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="shrink-0 flex items-center gap-4">
-            <img src="/ufca-logo-horizontal.png" alt="UFCA" className="h-14 object-contain" />
+            <img src="/ufca-logo-horizontal.png" alt="UFCA" className="h-12 w-auto object-contain" />
             <div className="hidden sm:block h-8 w-px bg-gray-300"></div>
             <span className="font-bold text-xl text-stone-800 tracking-tight hidden sm:block">Prof. Laszlon</span>
           </div>
