@@ -7,13 +7,13 @@ export default function HeroSection() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
         
         {/* Coluna Esquerda: Foto e Brasão */}
-        <div className="flex flex-col items-center gap-8 shrink-0">
+        <div className="flex flex-col items-center gap-6 shrink-0">
           <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden shadow-2xl border-4 border-white">
             <img src="/profile.jpg" alt={bioData.name} className="w-full h-full object-cover" />
           </div>
           
           <div className="hidden md:block">
-            <img src="/ufca-logo.png" alt="UFCA Logo" className="h-36 object-contain drop-shadow-sm hover:scale-105 transition-transform duration-300" />
+            <img src="/ufca-logo.png" alt="UFCA Logo" className="w-32 md:w-40 h-auto object-contain drop-shadow-sm hover:scale-105 transition-transform duration-300" />
           </div>
         </div>
 
@@ -24,7 +24,7 @@ export default function HeroSection() {
           </h1>
           
           <div className="space-y-2 mb-6">
-            <h2 className="text-xl md:text-2xl text-blue-600 font-medium">
+            <h2 className="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
               {bioData.title}
             </h2>
             <p className="text-lg text-gray-600 font-medium">
@@ -32,12 +32,12 @@ export default function HeroSection() {
             </p>
           </div>
 
-          <p className="text-gray-600 text-lg leading-relaxed mb-8 max-w-2xl mx-auto md:mx-0">
+          <p className="text-gray-700 text-lg leading-relaxed mb-8 max-w-2xl mx-auto md:mx-0">
             {bioData.about}
           </p>
 
           <div className="flex flex-wrap justify-center md:justify-start gap-3">
-            <a href={`mailto:${bioData.email}`} className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-blue-50 hover:text-blue-600 hover:border-blue-300 transition-colors shadow-sm text-sm">
+            <a href={`mailto:${bioData.email}`} className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 hover:shadow-md transition-all shadow-sm text-sm">
               <Mail size={16} /> Email
             </a>
             <a href={bioData.links.scholar} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-blue-50 hover:text-blue-600 hover:border-blue-300 transition-colors shadow-sm text-sm">
