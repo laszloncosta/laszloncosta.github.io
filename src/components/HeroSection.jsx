@@ -51,9 +51,8 @@ export default function HeroSection() {
             </a>
           </div>
 
-          <div className="mt-10 pt-8 border-t border-gray-100 flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start gap-4">
-            <span className="text-xs text-gray-400 uppercase tracking-widest font-semibold mt-2">Affiliation</span>
-            <img src="/ufca-logo.png" alt="UFCA Logo" className="h-14 object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+          <div className="mt-12 pt-8 border-t border-gray-100 flex justify-center md:justify-start">
+            <img src="/ufca-logo.png" alt="UFCA Logo" className="h-32 md:h-40 object-contain drop-shadow-sm hover:scale-105 transition-transform duration-300" />
           </div>
         </div>
       </div>
