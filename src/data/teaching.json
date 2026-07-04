@@ -1,0 +1,48 @@
+[
+  {
+    "id": "2026.1",
+    "period": "2026.1 (Current)",
+    "courses": [
+      {
+        "name": "Introdução à Programação",
+        "program": "Matemática Computacional"
+      },
+      {
+        "name": "Programação Computacional",
+        "program": "Engenharia de Materiais"
+      },
+      {
+        "name": "Redes Sem Fio",
+        "program": "Ciência da Computação / Engenharia"
+      }
+    ]
+  },
+  {
+    "id": "2025.2",
+    "period": "2025.2",
+    "courses": [
+      {
+        "name": "Compiladores",
+        "program": "Ciência da Computação"
+      },
+      {
+        "name": "Programação Concorrente",
+        "program": "Ciência da Computação"
+      }
+    ]
+  },
+  {
+    "id": "2025.1",
+    "period": "2025.1",
+    "courses": [
+      {
+        "name": "Introdução à Programação",
+        "program": "Matemática Computacional"
+      },
+      {
+        "name": "Programação Computacional",
+        "program": "Engenharia de Materiais"
+      }
+    ]
+  }
+]

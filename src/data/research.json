@@ -1,0 +1,20 @@
+[
+  {
+    "id": "mimo",
+    "title": "Sistemas MIMO e Antenas Inteligentes",
+    "description": "Pesquisa em múltiplas antenas para aumento de capacidade e eficiência espectral em redes sem fio.",
+    "icon": "antenna"
+  },
+  {
+    "id": "rrm",
+    "title": "Otimização e Gerenciamento de Recursos (RRM)",
+    "description": "Desenvolvimento de algoritmos para alocação eficiente de recursos de rádio em ambientes de alta demanda.",
+    "icon": "cpu"
+  },
+  {
+    "id": "oran",
+    "title": "Open RAN e Redes Desagregadas",
+    "description": "Estudo e implementação de arquiteturas abertas e inteligentes para as redes móveis do futuro.",
+    "icon": "network"
+  }
+]

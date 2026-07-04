@@ -5,7 +5,22 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Prof. Laszlon Costa - Academic Portfolio",
-  description: "Professor and Researcher at the Federal University of Cariri (UFCA)",
+  description: "Professor and Researcher at the Federal University of Cariri (UFCA). Research focuses on 5G/6G, O-RAN, and Massive MIMO.",
+  openGraph: {
+    title: "Prof. Laszlon Costa - Academic Portfolio",
+    description: "Professor and Researcher at the Federal University of Cariri (UFCA)",
+    url: "https://laszloncosta.github.io",
+    siteName: "Prof. Laszlon Costa",
+    images: [
+      {
+        url: "/profile.jpg",
+        width: 800,
+        height: 800,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
