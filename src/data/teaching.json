@@ -1,19 +1,37 @@
 [
   {
+    "id": "2026.2",
+    "period": "2026.2",
+    "courses": [
+      {
+        "name": "Compilers",
+        "program": "Computer Science"
+      },
+      {
+        "name": "Concurrent Programming",
+        "program": "Computer Science"
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "program": "Computational Mathematics"
+      }
+    ]
+  },
+  {
     "id": "2026.1",
     "period": "2026.1 (Current)",
     "courses": [
       {
-        "name": "Introdução à Programação",
-        "program": "Matemática Computacional"
+        "name": "Introduction to Programming",
+        "program": "Computational Mathematics"
       },
       {
-        "name": "Programação Computacional",
-        "program": "Engenharia de Materiais"
+        "name": "Computational Programming",
+        "program": "Materials Engineering"
       },
       {
-        "name": "Redes Sem Fio",
-        "program": "Ciência da Computação / Engenharia"
+        "name": "Wireless Networks",
+        "program": "Computer Science"
       }
     ]
   },
@@ -22,12 +40,12 @@
     "period": "2025.2",
     "courses": [
       {
-        "name": "Compiladores",
-        "program": "Ciência da Computação"
+        "name": "Compilers",
+        "program": "Computer Science"
       },
       {
-        "name": "Programação Concorrente",
-        "program": "Ciência da Computação"
+        "name": "Concurrent Programming",
+        "program": "Computer Science"
       }
     ]
   },
@@ -36,12 +54,12 @@
     "period": "2025.1",
     "courses": [
       {
-        "name": "Introdução à Programação",
-        "program": "Matemática Computacional"
+        "name": "Introduction to Programming",
+        "program": "Computational Mathematics"
       },
       {
-        "name": "Programação Computacional",
-        "program": "Engenharia de Materiais"
+        "name": "Computational Programming",
+        "program": "Materials Engineering"
       }
     ]
   }
