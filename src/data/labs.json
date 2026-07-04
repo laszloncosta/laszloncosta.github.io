@@ -2,14 +2,14 @@
   {
     "id": "nest",
     "name": "NEST",
-    "description": "Núcleo de Estudos em Sistemas de Telecomunicações",
-    "url": "https://nest.ufc.br",
+    "description": "Telecommunications Systems Study Center",
+    "url": "https://www.instagram.com/nest.ufca/",
     "image": "/nest-logo.png"
   },
   {
     "id": "padimlab",
-    "name": "PADIM",
-    "description": "Laboratório de Práticas Avançadas em Desenvolvimento, Inovação e Metodologias para Engenharia de Sistemas",
+    "name": "PADIM Lab",
+    "description": "Laboratory of Advanced Practices in Development, Innovation and Methodologies for Systems Engineering",
     "url": "#",
     "image": "/padim-logo.png"
   },
