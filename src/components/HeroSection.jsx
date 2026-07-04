@@ -41,9 +41,10 @@ export default function HeroSection() {
               <h2 className="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-stone-800 to-stone-500">
                 {bioData.title}
               </h2>
-              <p className="text-lg text-gray-600 font-medium">
-                {bioData.institution} • {bioData.department}
-              </p>
+              <div className="flex items-center justify-center md:justify-start gap-2.5 text-lg text-gray-600 font-medium">
+                <img src="/ufca-crest.png" alt="UFCA Crest" className="h-7 w-auto object-contain drop-shadow-sm" />
+                <span>{bioData.institution} • {bioData.department}</span>
+              </div>
             </div>
 
             <p className="text-gray-700 text-lg leading-relaxed mb-8 max-w-2xl mx-auto md:mx-0">
