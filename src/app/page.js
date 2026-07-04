@@ -5,7 +5,6 @@ import LabsAffiliation from '../components/LabsAffiliation';
 import ExperienceList from '../components/ExperienceList';
 import TeachingList from '../components/TeachingList';
 import PatentsList from '../components/PatentsList';
-import NewsList from '../components/NewsList';
 import PublicationsList from '../components/PublicationsList';
 import Footer from '../components/Footer';
 
@@ -19,7 +18,6 @@ export default function Home() {
       <ExperienceList />
       <TeachingList />
       <PatentsList />
-      <NewsList />
       <PublicationsList />
       <Footer />
     </main>

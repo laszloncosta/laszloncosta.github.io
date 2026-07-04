@@ -10,12 +10,13 @@ export default function Navbar() {
             <div className="hidden sm:block h-6 w-px bg-gray-300"></div>
             <img src="/ufca-logo-horizontal.png" alt="UFCA" className="h-4 sm:h-5 w-auto object-contain drop-shadow-sm" />
           </div>
-          <div className="hidden md:flex items-center gap-2 lg:gap-6">
+          <div className="hidden md:flex items-center gap-2 lg:gap-5">
             <a href="#about" className="text-gray-600 hover:text-teal-600 px-2 py-2 text-sm font-medium transition-colors">Home</a>
-            <a href="#labs" className="text-gray-600 hover:text-teal-600 px-2 py-2 text-sm font-medium transition-colors">Laboratories</a>
+            <a href="#research-interests" className="text-gray-600 hover:text-teal-600 px-2 py-2 text-sm font-medium transition-colors">Research</a>
+            <a href="#labs" className="text-gray-600 hover:text-teal-600 px-2 py-2 text-sm font-medium transition-colors">Labs</a>
             <a href="#experience" className="text-gray-600 hover:text-teal-600 px-2 py-2 text-sm font-medium transition-colors">Experience</a>
+            <a href="#teaching" className="text-gray-600 hover:text-teal-600 px-2 py-2 text-sm font-medium transition-colors">Teaching</a>
             <a href="#patents" className="text-gray-600 hover:text-teal-600 px-2 py-2 text-sm font-medium transition-colors">Patents</a>
-            <a href="#news" className="text-gray-600 hover:text-teal-600 px-2 py-2 text-sm font-medium transition-colors">News</a>
             <a href="#publications" className="text-gray-600 hover:text-teal-600 px-2 py-2 text-sm font-medium transition-colors">Publications</a>
           </div>
         </div>
