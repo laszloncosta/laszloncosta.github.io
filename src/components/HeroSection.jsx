@@ -1,4 +1,4 @@
-import { Mail, GraduationCap, Code, Briefcase, ExternalLink, BookOpen } from 'lucide-react';
+import { Mail, GraduationCap, Code, Briefcase, ExternalLink, BookOpen, MapPin } from 'lucide-react';
 import bioData from '../data/bio.json';
 
 export default function HeroSection() {
@@ -12,9 +12,6 @@ export default function HeroSection() {
             <img src="/profile.jpg" alt={bioData.name} className="w-full h-full object-cover" />
           </div>
           <div className="flex flex-wrap justify-center gap-2 w-full">
-            <a href={`mailto:${bioData.email}`} className="w-full flex justify-center items-center gap-2 px-4 py-2 bg-teal-600 text-white font-medium rounded-lg hover:bg-teal-700 hover:shadow-md transition-all shadow-sm text-sm">
-              <Mail size={16} /> Email
-            </a>
             <a href={bioData.links.scholar} target="_blank" rel="noreferrer" className="flex-1 flex justify-center items-center gap-2 px-2 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-teal-50 hover:text-teal-600 hover:border-teal-300 transition-colors shadow-sm text-xs">
               <GraduationCap size={14} /> Scholar
             </a>
@@ -30,6 +27,23 @@ export default function HeroSection() {
             <a href={bioData.links.researchgate} target="_blank" rel="noreferrer" className="w-full flex justify-center items-center gap-2 px-3 py-2 bg-white text-gray-700 border border-gray-300 rounded-lg hover:bg-teal-50 hover:text-teal-600 hover:border-teal-300 transition-colors shadow-sm text-xs">
               <BookOpen size={14} /> ResearchGate
             </a>
+          </div>
+
+          <div className="w-full mt-2 p-4 bg-white/50 border border-gray-200 rounded-xl text-sm text-gray-700 flex flex-col gap-3 shadow-sm">
+            <div className="flex items-center gap-3">
+              <Mail size={16} className="text-teal-600 shrink-0" />
+              <a href={`mailto:${bioData.email}`} className="select-all hover:text-teal-700 font-medium transition-colors break-all">
+                {bioData.email}
+              </a>
+            </div>
+            <div className="flex items-start gap-3">
+              <MapPin size={16} className="text-teal-600 shrink-0 mt-0.5" />
+              <div className="leading-relaxed">
+                {bioData.address.map((line, index) => (
+                  <span key={index} className="block">{line}</span>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
 
