@@ -28,45 +28,46 @@ export default function HeroSection() {
               <BookOpen size={14} /> ResearchGate
             </a>
           </div>
+        </div>
 
-          <div className="w-full mt-2 p-4 bg-white/50 border border-gray-200 rounded-xl text-sm text-gray-700 flex flex-col gap-3 shadow-sm">
+        {/* Informações */}
+        <div className="flex-1 text-center md:text-left md:pt-4 flex flex-col h-full">
+          <div>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight mb-4">
+              {bioData.name}
+            </h1>
+            
+            <div className="space-y-2 mb-6">
+              <h2 className="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-stone-800 to-stone-500">
+                {bioData.title}
+              </h2>
+              <p className="text-lg text-gray-600 font-medium">
+                {bioData.institution} • {bioData.department}
+              </p>
+            </div>
+
+            <p className="text-gray-700 text-lg leading-relaxed mb-8 max-w-2xl mx-auto md:mx-0">
+              {bioData.about}
+            </p>
+          </div>
+          
+          <div className="mt-auto pt-4 flex flex-col sm:flex-row gap-4 sm:gap-8 items-center md:items-start text-sm text-gray-700 bg-white/40 p-5 rounded-2xl border border-gray-100 shadow-sm w-fit mx-auto md:mx-0">
             <div className="flex items-center gap-3">
-              <Mail size={16} className="text-teal-600 shrink-0" />
-              <a href={`mailto:${bioData.email}`} className="select-all hover:text-teal-700 font-medium transition-colors break-all">
+              <Mail size={18} className="text-teal-600 shrink-0" />
+              <a href={`mailto:${bioData.email}`} className="select-all hover:text-teal-700 font-medium transition-colors break-all text-base">
                 {bioData.email}
               </a>
             </div>
+            <div className="hidden sm:block w-px h-10 bg-gray-200"></div>
             <div className="flex items-start gap-3">
-              <MapPin size={16} className="text-teal-600 shrink-0 mt-0.5" />
-              <div className="leading-relaxed">
+              <MapPin size={18} className="text-teal-600 shrink-0 mt-0.5" />
+              <div className="leading-relaxed text-left">
                 {bioData.address.map((line, index) => (
                   <span key={index} className="block">{line}</span>
                 ))}
               </div>
             </div>
           </div>
-        </div>
-
-        {/* Informações */}
-        <div className="flex-1 text-center md:text-left md:pt-4">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight mb-4">
-            {bioData.name}
-          </h1>
-          
-          <div className="space-y-2 mb-6">
-            <h2 className="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-stone-800 to-stone-500">
-              {bioData.title}
-            </h2>
-            <p className="text-lg text-gray-600 font-medium">
-              {bioData.institution} • {bioData.department}
-            </p>
-          </div>
-
-          <p className="text-gray-700 text-lg leading-relaxed mb-8 max-w-2xl mx-auto md:mx-0">
-            {bioData.about}
-          </p>
-
-
         </div>
       </div>
     </section>
